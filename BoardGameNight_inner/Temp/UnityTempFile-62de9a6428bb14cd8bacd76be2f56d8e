@@ -45,6 +45,7 @@
 -define:UNITY_PRO_LICENSE
 'Assets/Scripts/ChestOpen.cs'
 'Assets/Scripts/CoworkerScript_2.cs'
+'Assets/Scripts/FireExtinguisher.cs'
 'Assets/Scripts/InstructionsDisappear.cs'
 'Assets/Scripts/PlayerController.cs'
 -r:'/Applications/Unity/Unity4.6.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

@@ -1,8 +1,8 @@
 fileFormatVersion: 2
-guid: c69458f3bb09b49809c96d93f11d501f
+guid: d3d950e756c7f4b1583c9fa1766d2bee
 TextureImporter:
   fileIDToRecycleName:
-    21300000: fire-extinguisher
+    21300000: openChest_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -23,7 +23,7 @@ TextureImporter:
   generateCubemap: 0
   seamlessCubemap: 0
   textureFormat: -1
-  maxTextureSize: 128
+  maxTextureSize: 256
   textureSettings:
     filterMode: -1
     aniso: -1
