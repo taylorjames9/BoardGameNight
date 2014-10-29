@@ -7,6 +7,7 @@ public class FireExtinguisher : MonoBehaviour {
 	public GameObject mainPlayer;
 	public ParticleSystem foam;
 
+
 	void OnCollisionEnter2D( ){
 		transform.parent = mainPlayer.transform;
 
@@ -15,6 +16,11 @@ public class FireExtinguisher : MonoBehaviour {
 	void Update(){
 		if (Input.GetKeyDown ("space")) {
 			foam.Play ();
+			audio.Play ();
+		}
+		if (Input.GetKeyUp ("space")) {
+			foam.Stop ();
+			audio.Stop ();
 		}
 	}
 }
